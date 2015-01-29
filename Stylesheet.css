@@ -1,0 +1,136 @@
+.mainbody {
+         position: relative;
+         display: block;
+}
+.mainbody::after {
+        content: "";
+        background: url("http://i1105.photobucket.com/albums/h349/MattandKatie121/DSC00855.jpg?1417896872730&1417896872991");
+        opacity: .5;
+        top: 19em;
+        left: 0;
+        right: 0;
+        bottom: -20em;
+        position: absolute;
+        z-index: -1;
+        background-size: cover;
+        max-width: none !important;
+        max-height: none !important;
+        background-repeat: no-repeat;
+} 
+
+.body { 
+      /* Typography Declarations */
+         color: #16DBC8;
+         font-size: 2.5em;
+         font-family: "Cinzel decorative", cursive;
+         font-weight: Bold;
+}
+.masthead-heading,
+.masthead-intro {
+          text-align: center;
+}
+.masthead {
+          padding: .15em 0;
+          background-size: cover;
+          background-image: url("http://i1105.photobucket.com/albums/h349/MattandKatie121/2014-11-08205450.jpg");
+          background-position: center;
+          background-repeat: no-repeat;
+          border: 1em solid;
+}
+.masthead-intro {
+          /* Layout Declarations */
+          margin-bottom: 0.5em;
+          /* Typography Declarations */
+          font-family: "Cinzel Decorative", cursive;
+          font-size: 2.5em; 
+}
+.masthead-heading {
+          /* Layout Declarations */
+          margin-top: -0.3em;
+          /* Typography Delcarations */  
+          font-family: "Cinzel Decorative", cursive; 
+          font-weight: Bold;
+          font-size: 6em;
+          letter-spacing: -.02em;
+}     
+.social > li{
+
+          display: inline-block;
+          margin-left: 2em;
+          font-color: #006400;
+}
+.location-section,
+.content, 
+.devices, 
+.h2,
+.h3,
+.introduction { 
+          /* Typography Declarations */
+          font-weight: bold;
+          letter-spacing: 0.05em;
+          text-align: center;
+          max-width: 58em;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 2em;
+        }
+.things {
+          background-color: #CCCCFF;
+          background-size: cover;
+}
+.jobs {
+          background-color: #B2FFFF;
+          background-size: cover;
+}
+.music {
+          background-color: #D1B2D1
+          background-size: cover;
+}
+.content-footer {
+          font-weight: 700;
+          letter-spacing: 0.05em;
+          text-align: center;
+          max-width: 58em;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 25em;
+          margin-bottom: 10em;
+
+}
+h1 {      font-family: "Cinzel Decorative", cursive;
+          font-size: 2.5em;
+}
+
+p {       font-family: "Goudy Bookletter 1911", serif;
+          font-size: 1.5em;
+}
+/**
+ * Responsive Design
+ */
+@media (min-width: 48rem) {
+    .content {
+        width: 46rem;
+    }
+}
+@media (min-width: 62rem) {
+    .content {
+        width: 60rem;
+    }
+}
+@media (min-width: 75rem) {
+    .content {
+        width: 60%;
+    }
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
+}
+/* Standard syntax */ 
+@keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
+}
+
